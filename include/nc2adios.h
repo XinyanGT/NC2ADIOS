@@ -1,0 +1,17 @@
+#ifndef NC2ADIOS_H
+#define NC2ADIOS_H
+
+enum FUNC
+{
+	NC_CREATE,
+	NC_DEF_DIM,
+	NC_DEF_VAR,
+	NC_ENDDEF,
+	NC_PUT_VAR_FLOAT,
+	NC_CLOSE,
+	FUNC_SIZE	
+};
+
+#endif
+
+
